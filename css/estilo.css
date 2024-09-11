@@ -1,0 +1,90 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #6200ea;
+}
+
+/* Cabecera */
+header {
+    text-align: center;
+    background-color: #6200ea;
+    color: white;
+    padding: 50px 20px;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+/* Secciones */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+#about {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#inscripcion {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin: 20px 0;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3700b3;
+}
+
+/* Sección de contacto */
+#contacto {
+    background-color: #6200ea;
+    color: white;
+    padding: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
